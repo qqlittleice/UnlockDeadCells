@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:label="Unlock DeadCells"
+        android:supportsRtl="false"
+        tools:ignore="MissingApplicationIcon">
+        <meta-data
+            android:name="xposedscope"
+            android:resource="@array/xposed_scope" />
+
+        <meta-data
+            android:name="xposeddescription"
+            android:value="解锁完整版及 DLC (巨人的崛起, 坏种, 致命坠落, 王后与海, 重返恶魔城) By 暗组夏天" />
+
+        <meta-data
+            android:name="xposedminversion"
+            android:value="93" />
+    </application>
+</manifest>
